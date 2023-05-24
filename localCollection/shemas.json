@@ -1,0 +1,18 @@
+{
+    "user_schema": {
+        "id": 1,
+        "name": "string",
+        "email": "johndoe@example.com",
+        "phone": "3162789945",
+        "OS": "string",
+        "privacyAgreement": true,
+        "date": "Thu May 18 2022",
+        "timeStamp": "9:1"
+    },
+    "interaction_schema": {
+        "id": 1,
+        "OS": "iOS",
+        "timeStamp": "9:1",
+        "date": "Thu May 18 2022"
+    }
+}

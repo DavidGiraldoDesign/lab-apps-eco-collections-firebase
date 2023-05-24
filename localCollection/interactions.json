@@ -1,0 +1,190 @@
+{
+  "interactions": [
+    {
+      "id": 1,
+      "OS": "iOS",
+      "timeStamp": "9:1",
+      "date": "Thu May 18 2022"
+    },
+    {
+      "id": 2,
+      "OS": "iOS",
+      "timeStamp": "9:1",
+      "date": "Thu May 18 2022"
+    },
+    {
+      "id": 3,
+      "OS": "Android",
+      "timeStamp": "10:1",
+      "date": "Thu May 18 2022"
+    },
+    {
+      "id": 4,
+      "OS": "iOS",
+      "timeStamp": "11:1",
+      "date": "Thu May 18 2022"
+    },
+    {
+      "id": 5,
+      "OS": "iOS",
+      "timeStamp": "21:1",
+      "date": "Thu May 18 2022"
+    },
+    {
+      "id": 6,
+      "OS": "Android",
+      "timeStamp": "9:1",
+      "date": "Thu May 18 2022"
+    },
+    {
+      "id": 7,
+      "OS": "iOS",
+      "timeStamp": "10:1",
+      "date": "Fri May 19 2022"
+    },
+    {
+      "id": 8,
+      "OS": "iOS",
+      "timeStamp": "11:1",
+      "date": "Fri May 19 2022"
+    },
+    {
+      "id": 9,
+      "OS": "iOS",
+      "timeStamp": "9:1",
+      "date": "Fri May 19 2022"
+    },
+    {
+      "id": 10,
+      "OS": "iOS",
+      "timeStamp": "10:1",
+      "date": "Fri May 19 2022"
+    },
+    {
+      "id": 11,
+      "OS": "Android",
+      "timeStamp": "12:1",
+      "date": "Fri May 19 2022"
+    },
+    {
+      "id": 17,
+      "date": "Thu May 18 2023",
+      "timeStamp": "21:08",
+      "OS": "macOS"
+    },
+    {
+      "id": 13,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:14",
+      "OS": "macOS"
+    },
+    {
+      "id": 14,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:15",
+      "OS": "macOS"
+    },
+    {
+      "id": 15,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:15",
+      "OS": "macOS"
+    },
+    {
+      "id": 16,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:16",
+      "OS": "macOS"
+    },
+    {
+      "id": 17,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:41",
+      "OS": "macOS"
+    },
+    {
+      "id": 18,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:41",
+      "OS": "macOS"
+    },
+    {
+      "id": 19,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:42",
+      "OS": "macOS"
+    },
+    {
+      "id": 20,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:42",
+      "OS": "macOS"
+    },
+    {
+      "id": 21,
+      "date": "Fri May 19 2023",
+      "timeStamp": "17:52",
+      "OS": "macOS"
+    },
+    {
+      "id": 22,
+      "date": "Fri May 19 2023",
+      "timeStamp": "17:52",
+      "OS": "macOS"
+    },
+    {
+      "id": 23,
+      "date": "Fri May 19 2023",
+      "timeStamp": "18:02",
+      "OS": "macOS"
+    },
+    {
+      "id": 24,
+      "date": "Fri May 19 2023",
+      "timeStamp": "18:02",
+      "OS": "macOS"
+    },
+    {
+      "id": 25,
+      "date": "Fri May 19 2023",
+      "timeStamp": "18:02",
+      "OS": "macOS"
+    },
+    {
+      "id": 26,
+      "date": "Fri May 19 2023",
+      "timeStamp": "18:03",
+      "OS": "macOS"
+    },
+    {
+      "id": 27,
+      "date": "Fri May 19 2023",
+      "timeStamp": "19:05",
+      "OS": "Android"
+    },
+    {
+      "id": 28,
+      "date": "Fri May 19 2023",
+      "timeStamp": "19:05",
+      "OS": "Android"
+    },
+    {
+      "id": 29,
+      "date": "Fri May 19 2023",
+      "timeStamp": "19:05",
+      "OS": "Android"
+    },
+    {
+      "id": 30,
+      "date": "Fri May 19 2023",
+      "timeStamp": "19:05",
+      "OS": "Android"
+    },
+    {
+      "id": 31,
+      "date": "Fri May 19 2023",
+      "timeStamp": "19:05",
+      "OS": "Android"
+    }
+  ]
+}

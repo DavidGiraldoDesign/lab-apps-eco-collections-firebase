@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Perez",
+      "email": "juan@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Sun May 14 2023",
+      "timeStamp": "15:55",
+      "OS": "macOS"
+    },
+    {
+      "id": 2,
+      "name": "Pedro Gomez",
+      "email": "prodre@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Sun May 14 2023",
+      "timeStamp": "15:56",
+      "OS": "macOS"
+    },
+    {
+      "id": 3,
+      "name": "Camila Morales",
+      "email": "camila@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Sun May 14 2023",
+      "timeStamp": "15:58",
+      "OS": "macOS"
+    },
+    {
+      "id": 4,
+      "name": "Kike Perez",
+      "email": "kiek@gmail.com",
+      "phone": "32423452346",
+      "privacyAgreement": true,
+      "date": "Sun May 14 2023",
+      "timeStamp": "15:59",
+      "OS": "macOS"
+    },
+    {
+      "id": 5,
+      "name": "Arturo",
+      "email": "artu@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Sun May 14 2023",
+      "timeStamp": "16:00",
+      "OS": "macOS"
+    },
+    {
+      "id": 6,
+      "name": "Ximena",
+      "email": "xime@gmai.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:25",
+      "OS": "macOS"
+    },
+    {
+      "id": 7,
+      "name": "Johana",
+      "email": "joha@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:26",
+      "OS": "macOS"
+    },
+    {
+      "id": 8,
+      "name": "Daniel",
+      "email": "dani@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Thu May 18 2023",
+      "timeStamp": "23:42",
+      "OS": "macOS"
+    },
+    {
+      "id": 9,
+      "name": "Kike Fernandez",
+      "email": "josedavidgm1995@gmail.com",
+      "phone": "3162789945",
+      "privacyAgreement": true,
+      "date": "Tue May 23 2023",
+      "timeStamp": "23:37",
+      "OS": "macOS"
+    }
+  ]
+}
