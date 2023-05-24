@@ -18,10 +18,11 @@ export const postUserData = (req, res) => {
       OS: newLead.OS
     };
     jsonData.users.push(jsonUser);  // add new user to existing data
-    fs.writeFileSync('./localCollection/users.json', JSON.stringify(jsonData, null, 2)); // write updated data back to users.json file
-    
-    io.emit('real-time-update', { state: true });
+
+    //io.emit('real-time-update', { state: true });
     fireStoreDB.addNewDocumentTo(jsonUser, 'Leads');
+
+    fs.writeFileSync('./localCollection/users.json', JSON.stringify(jsonData, null, 2)); // write updated data back to users.json file
 
     res.status(201).send({ msn: `User ${jsonUser.id} created` }); // send response indicating successful creation of new user
   } catch (error) {
@@ -50,6 +51,7 @@ export const postNoLeadInteraction = (req, res) => {
     fs.writeFileSync('./localCollection/interactions.json', JSON.stringify(jsonData, null, 2)); // write updated data back to users.json file
 
     io.emit('real-time-update', { state: true });
+    //fireStoreDB.addNewDocumentTo(jsonInteraction, 'Visits');
 
     res.status(201).send({ msn: `User ${jsonInteraction.id} created` }); // send response indicating successful creation of new user
   } catch (error) {

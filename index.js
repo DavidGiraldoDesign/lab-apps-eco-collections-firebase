@@ -7,7 +7,7 @@ dotenv.config();
 const PORT = process.env.PORT;
 const app = express();
 
-//fireStoreDB;
+//fireStoreDB.updateRealTime('Leads', () => { console.log('update!') })
 /*fireStoreDB.getCollection('Leads').then((leads) => {
   console.log(leads);
 })*/
@@ -44,6 +44,10 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => {
     console.log(`Client ${socket.id} disconnect.`);
   });
+});
+
+fireStoreDB.updateRealTime('Leads', () => {
+  io.emit('real-time-update', { state: 'Using onSnapshot' })
 });
 
 export { io };

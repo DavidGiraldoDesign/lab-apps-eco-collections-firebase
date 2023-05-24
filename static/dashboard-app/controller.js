@@ -47,6 +47,7 @@ function controller(view, socket) {
 
     socket.on('real-time-update', (data) => {
         console.log('Some update happen!');
+        console.log(data);
         updateRealTime();
     });
 

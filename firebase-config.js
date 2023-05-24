@@ -1,6 +1,6 @@
 import { dotenv } from './dependencies.js';
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
+import { getFirestore, collection, getDocs, addDoc, onSnapshot } from "firebase/firestore";
 
 dotenv.config();
 
@@ -48,6 +48,11 @@ class FireStoreDB {
         } catch (error) {
             console.log(error);
         }
+    }
+
+    updateRealTime = (collection, doSomething) => {
+        const c = FireStoreDB.collections[collection];
+        onSnapshot(c, doSomething);
     }
 }
 
